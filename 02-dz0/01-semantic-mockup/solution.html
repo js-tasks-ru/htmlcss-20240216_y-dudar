@@ -1,4 +1,100 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <!-- Ваше решение -->
+    <head>
+        <title>Semantic</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            header h1 {
+                font-size: 40px;
+                text-align: center;
+                color: seashell;
+                background-color: tomato;
+            }
+
+            nav {
+                padding: 15px;
+                background-color: orange;
+            }
+
+            nav ul {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                font-size: 20px;
+            }
+
+            nav a {
+                color: seashell;
+            }
+
+            main {
+                background-color: seagreen;
+                padding: 25px;
+            }
+
+            article{
+                background-color: royalblue;
+                padding: 15px;
+                margin-bottom: 10px;
+            }
+
+            article ul, ol {
+                margin-top: 10px;
+                margin-left: 40px;
+            }
+
+            footer {
+                font-size: 40px;
+                text-align: center;
+                background-color: blueviolet;
+                color: seashell;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Header</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Navigation 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Navigation 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Navigation 3</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <h2>Article 1</h2>
+                <ul>
+                    <li>Оригинальная трилогия</li>
+                    <li>Трилогия приквелов</li>
+                    <li>Трилогия сиквелов</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Article 2</h2>
+                <ol>
+                    <li>Эпизод IV — Новая надежда</li>
+                    <li>Эпизод V — Империя наносит ответный удар</li>
+                    <li>Эпизод VI — Возвращение джедая</li>
+                </ol>
+            </article>
+        </main>
+        <footer>
+            <p>Footer</p>
+        </footer>     
+    </body>
 </html>
