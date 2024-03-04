@@ -1,0 +1,30 @@
+.footer {
+    padding: 71px 0 136px;
+}
+
+.footer__content {
+    max-width: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__title {
+    margin-bottom: 32px;
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 126%;
+    color: var(--black);
+}
+
+.footer__desc {
+    text-align: center;
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--black);
+}
