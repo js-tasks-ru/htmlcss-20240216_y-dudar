@@ -1,0 +1,65 @@
+.skeleton__container {
+    padding: 32px 40px 32px 24px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+}
+
+.skeleton__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.skeleton__circle {
+    background-color: var(--grey-2);
+    flex-basis: 64px;
+    flex-shrink: 0;
+    height: 64px;
+    border-radius: 100%;
+}
+
+
+.skeleton__header-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.skeleton__line {
+    background: linear-gradient(163deg, #dde2e5 0%, #e2e6e8 33.33%, #f3f5f5 52.08%, #e3e7ea 73.96%, #dde2e5 100%);
+}
+
+.skeleton__body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.skeleton_line_sm {
+    min-height: 20px;
+    max-width: 172px;
+    min-width: 50px;
+}
+
+.skeleton_line_md {
+    min-height: 20px;
+    max-width: 257px;
+    min-width: 50px;
+
+}
+
+.skeleton_line_lg {
+    min-height: 20px;
+    max-width: 515px;
+    min-width: 50px;
+}
+
+.skeleton_line_xl {
+    min-height: 20px;
+    max-width: 475px;
+    min-width: 50px;
+}
