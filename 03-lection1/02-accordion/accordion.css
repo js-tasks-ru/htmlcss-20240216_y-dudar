@@ -1,1 +1,39 @@
 /* Стилизация аккордеона */
+.accordion_sm {
+    max-width: 579px;
+}
+
+.accordion__item {
+    padding: 24px 32px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.accordion__item[open]{
+    padding-bottom: 32px;
+}
+
+
+.accordion__item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion__summary {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--black);
+    font-family: var(--font-inter);
+}
+
+.accordion__summary::-webkit-details-marker {
+    display: none;
+}
+.accordion__content {
+    margin: 0;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--grey-4);
+}
