@@ -30,6 +30,8 @@
 }
 
 .skeleton__line {
+    min-height: 20px;
+    max-width: 55%;
     background: linear-gradient(163deg, #dde2e5 0%, #e2e6e8 33.33%, #f3f5f5 52.08%, #e3e7ea 73.96%, #dde2e5 100%);
 }
 
@@ -39,27 +41,10 @@
     gap: 8px;
 }
 
-.skeleton_line_sm {
-    min-height: 20px;
-    max-width: 172px;
-    min-width: 50px;
-}
-
 .skeleton_line_md {
-    min-height: 20px;
-    max-width: 257px;
-    min-width: 50px;
-
+    max-width: 75%;
 }
 
 .skeleton_line_lg {
-    min-height: 20px;
-    max-width: 515px;
-    min-width: 50px;
-}
-
-.skeleton_line_xl {
-    min-height: 20px;
-    max-width: 475px;
-    min-width: 50px;
+    min-width: 100%;
 }
