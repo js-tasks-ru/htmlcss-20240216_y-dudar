@@ -6,8 +6,12 @@
 @import '../../components/page/page.css';
 @import '../../components/card/card.css';
 @import '../../components/container/container.css';
+<<<<<<< HEAD
 @import '../../components/sidebar/sidebar.css';
 @import '../../components/component/component.css';
+=======
+@import '../.././03-lection1/01-button/button.css';
+>>>>>>> 9b40ecb90b16e51d297187e6284ce5af15445c66
 
 :root {
     --white: #ffffff;
@@ -31,6 +35,7 @@
     --secondary-family: 'Roboto', sans-serif;
     
     --font-inter: "Inter", sans-serif;
+    --third-family: "Source Sans Pro", sans-serif;
 }
 
 * {
