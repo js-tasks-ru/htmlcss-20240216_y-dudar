@@ -6,8 +6,6 @@
 @import '../../components/page/page.css';
 @import '../../components/card/card.css';
 @import '../../components/container/container.css';
-@import '../../components/sidebar/sidebar.css';
-@import '../../components/component/component.css';
 
 :root {
     --white: #ffffff;
@@ -31,6 +29,7 @@
     --secondary-family: 'Roboto', sans-serif;
     
     --font-inter: "Inter", sans-serif;
+    --third-family: "Source Sans Pro", sans-serif;
 }
 
 * {
