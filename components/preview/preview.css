@@ -1,5 +1,5 @@
 .preview {
-    padding: 68px 0px 92px;
+    /* padding: 68px 0px 92px; */
     background-color: #f9fafc;
 }
 
@@ -7,4 +7,12 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.preview_grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 56px;
+    grid-area: preview;
+    grid-template-areas: "sidebar component ";
 }
