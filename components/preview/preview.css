@@ -13,6 +13,4 @@
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 56px;
-    grid-area: preview;
-    grid-template-areas: "sidebar component ";
 }

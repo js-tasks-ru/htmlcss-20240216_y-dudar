@@ -11,7 +11,3 @@
     font-family: var(--font-inter);
 }
 
-.header_grid {
-    grid-area: header;
-    background-color: var(--white);
-}

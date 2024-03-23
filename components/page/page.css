@@ -1,4 +1,4 @@
-.page {
+.page_flex {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,9 +11,5 @@
 .page_grid {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    grid-template-areas:
-    "header"
-    "preview"
-    "footer";
     background: #f9fafc;
 }  
