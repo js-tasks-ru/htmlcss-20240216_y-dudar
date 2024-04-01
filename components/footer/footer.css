@@ -28,3 +28,12 @@
     text-align: center;
     color: var(--black);
 }
+
+.footer__text {
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--grey-3);
+    line-height: 18px;
+    text-align: center;
+}

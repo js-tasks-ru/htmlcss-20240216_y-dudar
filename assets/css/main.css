@@ -6,7 +6,8 @@
 @import '../../components/page/page.css';
 @import '../../components/card/card.css';
 @import '../../components/container/container.css';
-@import '../.././03-lection1/01-button/button.css';
+@import '../../components/component/component.css';
+@import '../../components/sidebar/sidebar.css';
 
 :root {
     --white: #ffffff;
